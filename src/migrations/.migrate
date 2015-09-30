@@ -1,0 +1,1 @@
+{"migrations":[{"title":"001-add-database.js"},{"title":"002-add-user.js"}],"path":"migrations/.migrate","pos":2,"_events":{},"_eventsCount":1}

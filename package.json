@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "babel-node": "babel-node --stage 0 --ignore='foo|bar|baz'",
+    "dev": "nodemon --exec babel-node --stage 0 --ignore='foo\\|bar\\|baz' -- ",
+    "test": "mocha --harmony "
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-bcryptjs": "^0.2.0",
+    "co-body": "^4.0.0",
+    "co-views": "^2.1.0",
+    "colors": "^1.1.2",
+    "escape-html": "^1.0.3",
+    "html": "0.0.10",
+    "jsonwebtoken": "^5.0.5",
+    "koa-router": "^5.1.2",
+    "koa-static": "^1.4.9",
+    "lodash": "^3.10.1",
+    "rethinkdbdash": "^2.1.8",
+    "uid-safe": "^2.0.0"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.1.2",
+    "co-supertest": "0.0.10",
+    "mocha": "^2.3.2",
+    "supertest": "^1.1.0"
+  }
+}
